@@ -1,0 +1,348 @@
+html,body
+{
+    font-family: "Macondo", cursive;
+    font-weight: 400;
+    font-style: normal;
+	Font-size: 1.3em;
+	background-color:#FF0080;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+/*header*/
+header{
+    background-color: #FF0080;
+    height:80px;
+    position: fixed;
+    width:100%;
+    z-index: 9999999;
+    background-image: url(images/PenginSmall.png);
+	background-repeat:no-repeat;
+    background-position: center;
+}
+
+/*Nav*/
+nav{
+    background-color: #FFAA80;
+    height:62px;
+    position: fixed;
+    top:80px;
+    width:100%;
+    z-index: 9999999;
+}
+
+ul{
+	list-style:none;
+    padding: 0px;
+    margin: 0px;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #FF0080;
+    transition: transform 0.3s ease;
+    border-radius: 10%;
+    padding:5px;
+}
+
+nav a:hover{
+    color: #FFFF80;
+    background-color: #FF0080;
+    transform: scale(1.1);
+}
+
+/*Main Content*/
+main{
+    background-color: #ffe5d9;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding-top:20px;
+}
+
+h3{
+    margin: 0px;
+    color: #FF0080;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+
+.caption {
+    color: #FF0080;
+    text-align: center;
+}
+
+img {
+    border: solid 5px #FF0080;
+}
+
+table tr td{
+    text-align: justify;
+    /*border: solid 1px #FF0080;*/
+    vertical-align: top;
+    font-size:1.1em;
+}
+
+table{
+    margin:auto;
+}
+
+button{
+    background-color: #FF0080;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:200px;
+    transition: transform 0.3s ease;
+    font-family:"Macondo", cursive;
+    font-size:20px;
+}
+
+button:hover{
+    background-color: #FFAA80;
+    transform: scale(1.1);
+    font-family:"Macondo", cursive;
+}
+
+video:hover{
+    transform: scale(1.1);
+}
+
+video{
+    border: solid 5px #FF0080;
+    transition: transform 0.3s ease;
+}
+
+/*Index*/
+.Info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6em;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    padding-top:20px;
+    width:900px;
+    margin:auto;
+}
+
+.art{
+    margin:30px;    
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+}
+
+.art:hover{
+    transform: scale(1.1);
+}
+
+#city {
+    width: 200px;
+    height: 200px;
+}
+
+#tree {
+    width: 352.96px;
+    height: 200px;
+}
+
+#hailey {
+    width: 200px;
+    height: 200px;
+}
+
+#ravo {
+    width: 207.04px;
+    height: 200px;
+}
+
+#sketch {
+    width: 248px;
+    height: 200px;
+}
+
+#celetsefanart {
+    width: 298px;
+    height: 200px;
+}
+
+/*Shop*/
+.row{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_1{
+    width:300px;
+    height:500px;
+    background-color: #ffffff;
+    margin:10px;
+}
+
+.item_2{
+    width:300px;
+    height:577px;
+    background-color: #ffffff;
+    margin:10px;
+}
+
+.item_3{
+    width:300px;
+    height:525px;
+    background-color: #ffffff;
+    margin:10px;
+}
+
+.item_1 img{
+    transition: transform 0.3s ease;
+}
+
+.item_1 img:hover{
+    transform: scale(1.1);
+}
+
+.item_2 img{
+    transition: transform 0.3s ease;
+}
+
+.item_2 img:hover{
+    transform: scale(1.1);
+}
+
+.item_3 img{
+    transition: transform 0.3s ease;
+}
+
+.item_3 img:hover{
+    transform: scale(1.1);
+}
+
+/*About*/
+.about{
+    margin: auto;
+    width:900px;
+}
+
+#me{
+    width:250px;
+    transition: transform 0.3s ease;
+}
+
+#me:hover{
+   transform: scale(1.1); 
+}
+
+/*Contact*/
+textarea{
+    resize: none;
+    height:200px;
+    width: 300px;
+    font-family: "Macondo", cursive;
+    font-size: 20px;
+}
+
+input{
+    Width:300px;
+    height:30px;
+    font-family: "Macondo", cursive;
+    font-size: 20px;
+}
+
+#Name{
+    background-color: #ffffff;
+    width:400px;
+    height:540px;
+    padding:20px;
+    border:5px solid #FF0080;
+    margin:auto;
+}
+
+/*footer*/
+footer{
+    background-color: #FF0080;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:40px;
+    text-align: left;
+}
+
+.footer_content{
+    display: flex;
+    margin:auto;
+    gap:30px;
+}
+
+.social_icon_text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.footer_link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color:#ffffff;
+}
+
+@media screen and (max-width: 600px ){
+    .row{
+        flex-direction: column;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    nav{
+        font-size: 0.7em;
+    }
+
+    .about{
+        width:90%;
+    }
+
+    .Info {
+        width: 90%;
+    }
+
+    input{
+        width: 80%;
+    }
+
+    textarea{
+        width:80%;
+    }
+
+    #Name{
+        width: 80%;
+    }
+
+    .footer_content{
+        flex-direction: column;
+    }
+}
