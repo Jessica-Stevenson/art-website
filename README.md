@@ -1,0 +1,1 @@
+This was for an assessment in 2025 and I was still learning. Images are unavabile due to a lack of foresight on my part with not being about to account for the fact GitHub doesn't allow large file sizes.
